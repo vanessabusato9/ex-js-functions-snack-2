@@ -1,16 +1,16 @@
 //SNACK 1
-function somma(Num1, Num2) {
-    return Num1 + Num2;
+function somma(num1, num2) {
+    return num1 + num2;
 }
 
 const somma = function (Num1, Num2) {
-    return Num1 + Num2;
+    return num1 + num2;
 }
 
-const somma = (Num1, Num2) => Num1 + Num2;
+const somma = (num1, num2) => num1 + num2;
 
 //SNACK 2
-const quadrato = Num1 => Num1 * Num1;
+const quadrato = num1 => num1 * num1;
 
 
 
