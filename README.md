@@ -8,3 +8,6 @@ Quindi, riscrivi la funzione somma con la sintassi delle arrow functions.
 Crea una arrow function che calcola il quadrato di un numero.
 Definisci una funzione chiamata quadrato che accetta un numero e restituisce il suo quadrato in una sola riga.
 
+🏆 Snack 3
+Crea una funzione eseguiOperazione
+Definisci una funzione eseguiOperazione che accetta tre parametri: due numeri e una funzione operatore (callback). La funzione deve eseguire l'operazione fornita sui due numeri.

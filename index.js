@@ -12,6 +12,10 @@ const somma = (num1, num2) => num1 + num2;
 //SNACK 2
 const quadrato = num1 => num1 * num1;
 
+//SNACK 3
+const eseguiOperazione = (num1, num2, operatore) => {
+    operatore(num1, num2);
+}
 
 
 
