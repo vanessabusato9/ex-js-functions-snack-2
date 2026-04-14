@@ -30,6 +30,19 @@ const timer = creaTimer(5000);
 timer();
 
 SNACK 5
+function stampaOgniSecondo(message) {
+    setInterval(() => {
+      console.log(message);
+    }, 1000);
+}
+
+stampaOgniSecondo("Fine");
+
+clearInterval(message);
+
+SNACK 6
+
+
 */
 
 
