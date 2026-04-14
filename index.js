@@ -54,6 +54,19 @@ function creaContatoreAutomatico(intervallo) {
 const conta = creaContatoreAutomatico(1000);
 conta();
 
+SNACK 7
+function eseguiEferma(messaggio, intervallo, durata){
+  const intervalloId = setInterval (() => {
+    console.log(messaggio);
+  }, intervallo);
+  
+  setTimeout(() => {
+    clearInterval(intervalloId);
+  }, durata);
+  }
+                                
+eseguiEferma("Sto eseguen...", 2000, 6000);
+
 */
 
 
