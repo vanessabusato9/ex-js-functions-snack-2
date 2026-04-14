@@ -41,7 +41,18 @@ stampaOgniSecondo("Fine");
 clearInterval(message);
 
 SNACK 6
-
+function creaContatoreAutomatico(intervallo) {
+  let count = 0;
+  return () => {
+    setInterval(() => {
+      count ++; 
+      console.log(`Il contatore è a ${count}`);
+    }, 1000);
+  }
+}
+  
+const conta = creaContatoreAutomatico(1000);
+conta();
 
 */
 
